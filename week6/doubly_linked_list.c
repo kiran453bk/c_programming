@@ -9,7 +9,7 @@ struct NODE {
 };
 
 // Function to create a new node
-struct NODE* createNode(int value) {
+struct NODE *createNode(int value) {
     struct NODE *newNode = (struct NODE*)malloc(sizeof(struct NODE));
     if (newNode == NULL) {
         printf("Memory allocation failed!\n");

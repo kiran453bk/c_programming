@@ -1,0 +1,29 @@
+✅ NEW FEATURES ADDED
+🚆 1. Coach Types
+    Sleeper
+    AC
+    General
+Seats are divided per coach
+
+🎫 2. Ticket Number Reuse (IMPORTANT CONSTRAINT)
+
+    If ticket 1004 is cancelled, it becomes available again
+
+    Next booking can reuse 1004
+
+Implemented using a ticket pool (array-based free list)
+👉 Industry-style logic
+
+🧠 DESIGN LOGIC (Quick Overview)
+Coach Seat Split
+Coach	Seats
+Sleeper	1–4
+AC	5–7
+General	8–10
+Ticket Management
+
+ticketCounter → generates new tickets
+
+freeTickets[] → stores cancelled ticket numbers
+
+Reassign from freeTickets before creating new ticket numbers

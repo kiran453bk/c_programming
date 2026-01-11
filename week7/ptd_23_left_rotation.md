@@ -15,6 +15,3 @@ A left rotation shifts each element of the array one position to the left, and t
 - All elements are shifted one position to the left.
 - The stored element is placed at the end of the array.
 - Finally, the rotated array is printed.
-
----
-

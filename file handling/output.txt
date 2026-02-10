@@ -1,0 +1,2 @@
+Singly Linked List:
+1 -> 5 -> 4 -> 8 -> 7 -> 89 -> NULL
